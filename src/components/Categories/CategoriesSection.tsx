@@ -38,7 +38,7 @@ const CategoriesSection: React.FC = () => {
       <div
         className="absolute inset-0 pointer-events-none z-0"
         style={{
-          backgroundImage: "url('/src/assets/banner2.png')",
+          backgroundImage: "url('/src/assets/banner2.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.12,

@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
   return (
     <section
       className="relative flex items-center justify-center text-white h-screen min-h-[600px] bg-cover bg-center bg-fixed mt-[-120px] pt-[120px] overflow-hidden"
-      style={{ backgroundImage: "url('/src/assets/banner1.png')" }}
+      style={{ backgroundImage: "url('/src/assets/banner1.webp')" }}
       ref={heroRef}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 to-teal-900/80 z-10"></div>
