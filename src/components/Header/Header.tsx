@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle, Mail } from 'lucide-react';
 import logo from '../../assets/logo.png';
 
 const Header: React.FC = () => {
@@ -42,11 +42,13 @@ const Header: React.FC = () => {
       <div className="hidden md:block">
         <div className="h-8 flex items-center bg-white shadow-sm">
           <div className="container mx-auto flex justify-end items-center h-full">
-            <div className="flex gap-6 items-center flex-wrap bg-gradient-to-r from-blue-700 to-blue-400 px-6 py-1.5 rounded-full shadow font-semibold text-white text-base min-w-0">
-              <div className="flex items-center gap-2 text-base h-auto whitespace-nowrap bg-blue-700/20 px-3 py-0.5 rounded-full font-semibold shadow">
-                <Phone size={16} className="bg-blue-700 text-white rounded-full shadow p-0.5" />
-                <span>TEXT: 99999999 | TOLL FREE: 00000000 | E: consultancy@kantharindustrialsolutions.in</span>
-              </div>
+            <div className="flex items-center gap-1 bg-gradient-to-r from-blue-700 to-blue-400 px-6 py-1.5 rounded-full shadow font-semibold text-white text-base min-w-0">
+              <MessageCircle size={20} className="text-white rounded-full shadow p-0.5" />
+              <span>Whatsapp: +91 9444042142 |</span>
+              <span className="flex items-center gap-1">
+                <Mail size={16} className="text-white rounded-full shadow p-0.5" />
+                E: ed@kantharindustrialsolutions.in
+              </span>
             </div>
           </div>
         </div>
@@ -109,16 +111,14 @@ const Header: React.FC = () => {
             <li className="block md:hidden mb-4">
               <div className="flex flex-col gap-2">
                 <div className="flex items-center gap-2 text-base h-auto whitespace-nowrap">
-                  <Phone size={16} className="bg-blue-700 text-white rounded-full shadow p-0.5" />
-                  <span className="text-gray-800 font-semibold">TEXT: 99999999</span>
+                  <MessageCircle size={16} className="bg-blue-700 text-white rounded-full shadow p-0.5" />
+                  <span className="text-gray-800 font-semibold">Whatsapp: 9444042142</span>
                 </div>
-                <div className="flex items-center gap-2 text-base h-auto whitespace-nowrap">
-                  <span className="text-gray-800 font-semibold">TOLL FREE: 00000000</span>
+                <div className="flex items-baseline gap-2 text-base h-auto whitespace-normal break-all">
+                  <Mail size={16} className="bg-blue-700 text-white rounded-full shadow p-0.5" />
+                  <span className="text-gray-800 font-semibold">ed@kantharindustrialsolutions.in</span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2 text-base h-auto whitespace-normal break-all">
-                  <span className="text-gray-800 font-semibold">E: consultancy@kantharindustrialsolutions.in</span>
-                </div>
-              </div>
             </li>
             <li><Link to="/" className="no-underline text-gray-800 font-medium text-base py-2 hover:text-blue-600" onClick={toggleMenu}>Services</Link></li>
             <li><Link to="/" className="no-underline text-gray-800 font-medium text-base py-2 hover:text-blue-600" onClick={toggleMenu}>Partners</Link></li>

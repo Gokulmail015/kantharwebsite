@@ -94,9 +94,7 @@ const ContactSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-white mb-1">Phone</h4>
-                <p className="text-white/90 text-sm">TEXT: 99999999</p>
-                <p className="text-white/90 text-sm">TOLL FREE: 00000000</p>
-              </div>
+                <p className="text-white/90 text-sm">Whatsapp: 9444042142</p>              </div>
             </div>
             <div className="flex items-start gap-4 border-b border-white/20 pb-4">
               <div className="w-9 h-9 flex items-center justify-center bg-blue-800/20 rounded-full mt-1">
@@ -104,7 +102,7 @@ const ContactSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-white mb-1">Email</h4>
-                <p className="text-white/90 text-sm">consultancy@kantharindustrialsolutions.in</p>
+                <p className="text-white/90 text-sm">ed@kantharindustrialsolutions.in</p>
               </div>
             </div>
             <div className="flex items-start gap-4 border-b border-white/20 pb-4">
@@ -113,9 +111,9 @@ const ContactSection: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-semibold text-white mb-1">Address</h4>
-                <p className="text-white/90 text-sm">123 Industrial Avenue</p>
-                <p className="text-white/90 text-sm">Tech Park, Innovation District</p>
-                <p className="text-white/90 text-sm">Chennai, India 600046</p>
+                <p className="text-white/90 text-sm">F1, Ragam Apartments, 507, </p>
+                <p className="text-white/90 text-sm">Samanthi Street, Poompozhil Nagar,</p>
+                <p className="text-white/90 text-sm"> Avadi, Chennai - 600062</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

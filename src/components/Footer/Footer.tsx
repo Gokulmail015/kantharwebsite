@@ -85,13 +85,12 @@ const Footer: React.FC = () => {
               <div className="flex items-start mb-3">
                 <Phone size={16} className="text-teal-500 mr-2 mt-1" />
                 <div>
-                  <p className="mb-1 text-gray-300 text-sm">TEXT: 99999999</p>
-                  <p className="mb-1 text-gray-300 text-sm">TOLL FREE: 00000000</p>
+                  <p className="mb-1 text-gray-300 text-sm">TEXT: +91 9444042142</p>
                 </div>
               </div>
               <div className="flex items-start mb-3">
                 <Mail size={16} className="text-teal-500 mr-2 mt-1" />
-                <p className="mb-1 text-gray-300 text-sm">consultancy@kantharindustrialsolutions.in</p>
+                <p className="mb-1 text-gray-300 text-sm">ed@kantharindustrialsolutions.in</p>
               </div>
               <div className="mt-4">
                 <h4 className="text-base mb-2 text-gray-200">Subscribe to our newsletter</h4>
