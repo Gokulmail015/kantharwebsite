@@ -72,7 +72,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center no-underline text-inherit">
               <div className="w-16 h-16 xs:w-20 xs:h-20 md:w-28 md:h-28 mr-0 md:mr-3 flex-shrink-0">
-                <img src={logo} alt="Industrial Solutions Logo" className="w-full h-full object-contain" />
+                <img src='https://files.catbox.moe/or3tqm.png' alt="Industrial Solutions Logo" className="w-full h-full object-contain" />
               </div>
               {/* Hide name and subtitle on mobile, show on md+ */}
               <div className="hidden md:flex flex-col">

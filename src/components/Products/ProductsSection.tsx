@@ -32,29 +32,29 @@ const ProductsSection: React.FC = () => {
     <section id="products" className="py-16 bg-gray-50 w-full" ref={sectionRef}>
       <div className="max-w-7xl mx-auto px-2 sm:px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-10 animate relative after:content-[''] after:block after:w-20 after:h-1 after:bg-gradient-to-r after:from-blue-600 after:to-teal-600 after:mx-auto after:rounded after:mt-3">
-          Solutions
+          Services
         </h2>
-        <div className="max-w-4xl mx-auto mb-10 animate">
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            We specialize in delivering advanced data analysis solutions tailored to the unique
+        <div className="max-w-7xl mx-auto mb-10 animate">
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-justify">
+            We specialize in delivering advanced data analysis services tailored to the unique
             machinery and processes of various manufacturing industries. Our services include the
             development of Industry 5.0 frameworks, seamlessly integrating human-centric automation
             and intelligent systems. We enable predictive maintenance through
             real-time monitoring and analytics, reducing downtime and maximizing asset life.
-            Our customized OEE (Overall Equipment Effectiveness) solutions help identify
+            Our customized OEE (Overall Equipment Effectiveness) services help identify
             performance gaps and boost operational efficiency. We also design intuitive interactive
             dashboards to visualize key production metrics, empowering decision-makers with
             actionable insights.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-10 w-full">
           <div className="bg-white rounded-xl shadow-lg p-7 flex flex-col hover:-translate-y-2 transition animate relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-teal-600 rounded-t"></div>
             <div className="flex items-center justify-center w-16 h-16 bg-blue-50 text-blue-700 rounded-full mb-4 mt-2">
               <Activity size={32} />
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">Predictive Maintenance</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed text-justify">
               Enable predictive maintenance through advanced analytics, reducing downtime and maximizing asset life.
               Our AI-driven systems detect potential failures before they occur.
             </p>
@@ -65,7 +65,7 @@ const ProductsSection: React.FC = () => {
               <Cpu size={32} />
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">OEE Solutions</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed text-justify">
               Our customized OEE (Overall Equipment Effectiveness) solutions help identify performance gaps and
               boost operational efficiency through real-time monitoring.
             </p>
@@ -76,7 +76,7 @@ const ProductsSection: React.FC = () => {
               <BarChart2 size={32} />
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">Interactive Dashboards</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed text-justify">
               We design intuitive interactive dashboards to visualize key production metrics, empowering
               decision-makers with actionable insights.
             </p>
@@ -87,7 +87,7 @@ const ProductsSection: React.FC = () => {
               <Database size={32} />
             </div>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">Data Integration</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed text-justify">
               Seamlessly integrate data from diverse industrial systems and sensors to create a unified
               platform for comprehensive analysis and reporting.
             </p>
