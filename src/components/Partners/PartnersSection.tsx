@@ -4,13 +4,13 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const partners = [
 	{
 		id: 1,
-		name: 'Tech Partner 1',
-		logo: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+		name: 'TVS Next Limited',
+		logo: 'https://files.catbox.moe/trqgu1.jpg',
 	},
 	{
 		id: 2,
-		name: 'Tech Partner 2',
-		logo: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+		name: 'Ethiopian Defence University',
+		logo: 'https://files.catbox.moe/r8pig7.png',
 	},
 	{
 		id: 3,
