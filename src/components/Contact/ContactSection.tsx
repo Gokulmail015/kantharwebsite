@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 
 const APPSCRIPT_URL =
-  'https://script.google.com/macros/s/AKfycbwkoecmbHKQHDxFsU6cO9EUQwzUROZTJvOqV7RJaTxUPXSp6ODVtVJiszeNefW1Yi_Y/exec';
+  'https://script.google.com/macros/s/AKfycby5W7V3BFvNJ7gJDEDqouJWNTxEySxJtoIobKvUil04Xg6kNvKGYBOqq7vniRUEIGlR/exec';
 
 const ContactSection: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
